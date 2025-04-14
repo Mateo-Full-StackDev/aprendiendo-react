@@ -6,6 +6,7 @@ function App() {
 
   return (
     <section className='App'>
+      {/* <span>Who to follow</span> */}
       <TwitterFollowCard
         isFollowing
         userName="midudev"
