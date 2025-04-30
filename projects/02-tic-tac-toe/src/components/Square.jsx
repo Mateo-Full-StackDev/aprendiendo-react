@@ -3,7 +3,6 @@ const Square = ({ children, isSelected, updateBoard, index }) => {
 
     const handleClick = () => {
         updateBoard(index)
-        console.log('click', index);
     }
     return (
         <div onClick={handleClick} className={className}>
