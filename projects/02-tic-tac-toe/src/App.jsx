@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import confetti from 'canvas-confetti';
 import Square from "./components/Square";
-import { TURNS } from './constants'
+import { TURNS } from './constants';
 import { checkWinnerFrom, checkEndGame } from './logic/board';
 import WinnerModal from './components/WinnerModal';
 import { saveGameToStorage, resetGameStorage } from './logic/storage/index';
@@ -21,7 +21,7 @@ function App() {
     if (turnFromStorage) return turnFromStorage
     return TURNS.X
   })
-
+ 
   const [winner, setWinner] = useState(null);
 
   const resetGame = () => {
