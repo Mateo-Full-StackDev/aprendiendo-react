@@ -8,22 +8,22 @@ function App() {
     <section className='App'>
       {/* <span>Who to follow</span> */}
       <TwitterFollowCard
-        isFollowing
+        
         userName="midudev"
         name="Miguel Angel Durán"
       />
       <TwitterFollowCard
-        isFollowing
+        
         userName="pheralb"
         name="Pablo Hernández"
       />
       <TwitterFollowCard
-        isFollowing
+        
         userName="elonmusk"
         name="Elon Musk"
       />
       <TwitterFollowCard
-        isFollowing
+        
         userName="vxndez"
         name="Vanderhart"
       />
